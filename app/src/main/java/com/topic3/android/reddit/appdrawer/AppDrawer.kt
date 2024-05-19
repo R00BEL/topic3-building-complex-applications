@@ -73,6 +73,7 @@ private fun AppDrawerHeader() {
     )
     Text(text = stringResource(id = R.string.default_username),
       color = MaterialTheme.colors.primaryVariant)
+    ProfileInfo()
   }
   Divider(
     color = MaterialTheme.colors.onSurface.copy(alpha = .2f),
